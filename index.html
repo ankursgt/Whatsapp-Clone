@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Whatsapp Web</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+        window.location = $(this).data("href");
+    });
+});
+jQuery(document).ready(function($) {
+    $(".clickable-img").click(function() {
+        window.location = $(this).data("href");
+    });
+});
+</script>
+  <link rel="stylesheet" href="styles.css"/> 
+  </head>
+  <body>
+	<div class="container-fluid">
+  		<div class="row">
+		    <div class="col-sm-4">
+				<img src="images/avatar.png" class="img rounded-circle clickable-img" data-href="Profile-pic-view.html" />
+		      	<div>
+				  	<a href="Unread-chat-messages.html"><i class="fa fa-dot-circle-o fa-2x"></i></a>
+					<a href="Unread-chat-messages.html"><i class="fa fa-commenting fa-2x"></i></a>
+					<a href="Unread-chat-messages.html"><i class="fa fa-ellipsis-v fa-2x"></i></a>
+				</div>
+				<div class="input-group">
+		        	<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+		      		<input class="form-control" placeholder="Search or start new chat" type="text">
+		    	</div>
+				<div class="scrollit"><br>
+					<table class="table table-hover">
+						<tbody>	
+							<tr class="clickable-row" data-href="Chat-view.html">		
+								<td ><img src="images/avatar.png" class="img rounded-circle" /> John Doe<br>
+								<span class="chat">Just chillin..</span><span class="message-time">12:00</span>
+								</td>
+							</tr>
+							<tr class="clickable-row" data-href="Chat-view.html">		
+								<td><img src="images/avatar.png" class="img rounded-circle" /> John Doe<br>
+								<span class="chat">Just chillin..</span><span class="message-time">12:00</span>
+								</td>
+							</tr>
+							<tr class="clickable-row" data-href="Chat-view.html">		
+								<td><img src="images/avatar.png" class="img rounded-circle" /> John Doe<br>
+								<span class="chat">Just chillin..</span><span class="message-time">12:00</span>
+								</td>
+							</tr>
+							<tr class="clickable-row" data-href="Chat-view.html">		
+								<td><img src="images/avatar.png" class="img rounded-circle" /> John Doe<br>
+								<span class="chat">Just chillin..</span><span class="message-time">Yesterday</span>
+								</td>
+							</tr>
+							<tr>		
+								<td><img src="images/avatar.png" class="img rounded-circle" /> John Doe<br>
+								<span class="chat">Just chillin..</span><span class="message-time">Yesterday</span>
+								</td>
+							</tr>
+							<tr class="clickable-row" data-href="Chat-view.html">		
+								<td><img src="images/avatar.png" class="img rounded-circle" /> John Doe<br>
+								<span class="chat">Just chillin..</span><span class="message-time">Yesterday</span>
+								</td>
+							</tr>
+							<tr>		
+								<td><img src="images/avatar.png" class="img rounded-circle" /> John Doe<br>
+								<span class="chat">Just chillin..</span><span class="message-time">Yesterday</span>
+								</td>
+							</tr>
+							<tr class="clickable-row" data-href="Chat-view.html">		
+								<td><img src="images/avatar.png" class="img rounded-circle" /> John Doe<br>
+								<span class="chat">Just chillin..</span><span class="message-time">Yesterday</span>
+								</td>
+							</tr>
+							<tr class="clickable-row" data-href="Chat-view.html">		
+								<td><img src="images/avatar.png" class="img rounded-circle" /> John Doe<br>
+								<span class="chat">Just chillin..</span><span class="message-time">Yesterday</span>
+								</td>
+							</tr>
+						</tbody>
+		        	</table>
+		    	</div>
+		    </div>
+    		<div class="col-sm-8">
+				<h1 style="text-align:center; margin:0 auto">Whatsapp Web</h1>
+    		</div>
+  		</div>
+	</div>
+</body>
+</html>
