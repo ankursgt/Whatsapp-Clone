@@ -1,6 +1,6 @@
 body {
 	font-family:'Calibri';	
-	background-color: #F6F3F2;	
+	background-color: #F7F9FA;	
 	}
 
 .container-fluid {
@@ -84,7 +84,15 @@ body {
     .col-sm-8 div a{
     	color:grey;
 		margin: 10px;
-    }    
+    }
+
+	.right .main-text{
+    		font-size: 2em;
+	}
+
+	.main-text{
+    		color : #4b5961;
+	}
 	
 	.card-img-top {
 		height:70%;
