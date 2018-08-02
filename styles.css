@@ -75,18 +75,21 @@ body {
 		margin: 10px;
     }
 
-	.col-sm-8 > div {
-    	padding-bottom: 10px;
-		float: right;
-    }
-	
+	.right{
+	    height : 100vh;
+	    background: #F7F9FA;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    color : #929fa6;
+	    border-bottom: #07bc4c solid 5px;
+	}
 
-    .col-sm-8 div a{
-    	color:grey;
-		margin: 10px;
-    }
+	.right a:hover{
+    	text-decoration: none;
+	}
 
-	.right .main-text{
+	.main-text{
     		font-size: 2em;
 	}
 
